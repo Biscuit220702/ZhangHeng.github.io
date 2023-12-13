@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>~留下来听一听音乐吧~</title>
+    <link href="../web/css/style-music.css" rel="stylesheet">
+</head>
+<body>
+    <div class="title"><img src="../image/101.png" id="title"> </div>
+    <div id="back"><a href="../web/index2.html" class="back-button">返回主页</a></div>
+    <div class="aaa">
+        <div class="box">
+            <a href="https://music.163.com/song?id=1459485088&userid=1752725071">
+                <img src="../image/heyu.jpg">
+            </a>
+            <span>何御</span>
+        </div>
+        <div class="box">
+            <a href="https://music.163.com/song?id=2006951090&userid=1752725071">
+                <img src="../image/qiuji.png">
+            </a>
+            <span>秋纪</span>
+        </div>
+    </div>
+    <div class="bbb">
+        <div class="box">
+            <a href="https://music.163.com/song?id=2006952086&userid=1752725071">
+                <img src="../image/zhuliu.png">
+            </a>
+            <span>逐流</span>
+        </div>
+        <div class="box">
+            <a href="https://music.163.com/song?id=2006952092&userid=1752725071">
+                <img src="../image/xinglu.jpg">
+            </a>
+            <span>行路</span>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("scroll", function(event) {
+        var Y2 = window.scrollY;
+        title.style.transform = "translate(0, " + Y2/8 + "px)";
+        });
+        
+    </script>
+</body>
+</html>
