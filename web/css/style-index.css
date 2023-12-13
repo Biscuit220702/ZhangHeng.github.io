@@ -3,10 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* html, body {
+html, body {
     overflow: hidden;
 } */
-/* 这样就不能往下滑了 */
+/* 这样就不能往下滑了
 
 body {
     display: flex;
